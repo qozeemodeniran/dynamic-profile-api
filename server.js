@@ -11,9 +11,9 @@ app.use(express.json());
 
 // configuration
 const USER_PROFILE = {
-    email: process.env.USER_EMAIL || "qozeemodenainran@gmail.com",
+    email: process.env.USER_EMAIL || "qozeemodeniran@gmail.com",
     name: process.env.USER_NAME || "Qozeem Odenainran",
-    stack: process.env.USER_STACK || "Full Stack Developer / Node.js & Express Developer",
+    stack: process.env.USER_STACK || "Node.js/Express",
 };
 
 // cat facts api service
